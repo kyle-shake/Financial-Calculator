@@ -1,0 +1,46 @@
+#########################################################################
+
+Financial Values Calculator
+
+Version 0.12.7.17
+
+Author: Kyle Shake
+
+#########################################################################
+
+Purpose:
+
+This program will calculate the values of specified financial values
+using input from the user
+
+Input:
+
+Integers denoting menu selections
+Values for basic financial or balance sheet items
+
+Output:
+
+User specified financial values
+
+
+
+
+
+-------------------------------------------------------------------------
+Updates:
+
+12/7: Split up the functions into different classes
+ -- Balance Sheet (seperate from others)
+
+ -- Cash Flows (parent class)
+ -- Annuities (child class)
+ -- Bonds (child class)
+ -- Stock (child class)
+
+To Do:
+
+Fix Bonds class function arguments to reflect friend/inherited classes 
+
+Fix Balance Sheet class function variables to reflect BSMap
+
+
